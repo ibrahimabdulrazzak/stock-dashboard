@@ -25,7 +25,7 @@ git clone https://github.com/ibrahimabdulrazzak/stock-dashboard.git
 cd stock-dashboard
 python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python app.py
 ```
 
